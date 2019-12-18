@@ -1,0 +1,9 @@
+[package]
+name = "rust-bitcoin-cpu-miner"
+version = "0.1.0"
+authors = ["Jake Rawsthorne <jake@jakerawsthorne.co.uk>"]
+edition = "2018"
+
+[dependencies]
+bitcoin = "0.21"
+num_cpus = "1.11"
